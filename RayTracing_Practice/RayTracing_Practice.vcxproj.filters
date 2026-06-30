@@ -10,6 +10,12 @@
     <Filter Include="Chapter4">
       <UniqueIdentifier>{f7f85a07-4476-4134-a317-8e47bdfb4e1d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Chapter5">
+      <UniqueIdentifier>{300d7389-73b7-44ad-a029-177aa5c400f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter6">
+      <UniqueIdentifier>{b3ad676a-1aca-48c6-972b-d0425d1c1a71}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter2\02OutputAnImage.cpp">
@@ -29,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="Chapter4\4.Ray.cpp">
       <Filter>Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter5\5.AddingaShapere.cpp">
+      <Filter>Chapter5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

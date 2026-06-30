@@ -21,8 +21,15 @@
     </ClCompile>
     <ClCompile Include="Chapter3\Color.cpp" />
     <ClCompile Include="Chapter3\Vector3.cpp" />
-    <ClCompile Include="Chapter4\4.Ray.cpp" />
+    <ClCompile Include="Chapter4\4.Ray.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Chapter4\Ray.cpp" />
+    <ClCompile Include="Chapter5\5.AddingaShapere.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter3\Color.h" />
