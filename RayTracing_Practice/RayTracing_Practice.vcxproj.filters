@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Chapter2">
+      <UniqueIdentifier>{5f1f4dae-4e9d-4f03-9615-119fe9511ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter3">
+      <UniqueIdentifier>{a648c419-f5fc-4198-889f-5b6f54ad96a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter4">
+      <UniqueIdentifier>{f7f85a07-4476-4134-a317-8e47bdfb4e1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Chapter2\02OutputAnImage.cpp">
+      <Filter>Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\Color.cpp">
+      <Filter>Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\Vector3.cpp">
+      <Filter>Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\3.Vector3.cpp">
+      <Filter>Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter4\Ray.cpp">
+      <Filter>Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter4\4.Ray.cpp">
+      <Filter>Chapter4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chapter3\Color.h">
+      <Filter>Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter3\Vector3.h">
+      <Filter>Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter4\Ray.h">
+      <Filter>Chapter4</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
